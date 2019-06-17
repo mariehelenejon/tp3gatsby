@@ -1,6 +1,8 @@
 import React from "react"
 import styles from "./about-css-modules.module.css"
 import Container from "../components/container"
+import Header from "../components/header"
+import { Link } from "gatsby"
 
 console.log(styles)
 
@@ -15,7 +17,10 @@ const User = props => (
 )
 
 export default () => (
+  <div style={{ color: `teal` }}>
+  <Header />
   <Container>
+   
     <h1>Qui sommes-nous?</h1>
     <p>CSS Modules are cool</p>
     <User
@@ -34,4 +39,5 @@ export default () => (
     excerpt = "I'm Bob Smith, a vertically aligned type of guy. Lorem ipsum dolor sit amet, consectetur adipisicing elit." /
       >
   </Container>
+  </div>
 )
