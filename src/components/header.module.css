@@ -7,6 +7,6 @@
     display:block;
     float:right;
 }
-.Logo {
-    background-image: url(./check-list.svg);
+.logo {
+    background-image: url(img/check-list.svg);
   }

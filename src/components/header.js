@@ -1,15 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
 import styles from "./header.module.css"
-import logo from "./check-list.svg"
+/* import logo from "./check-list.svg" */
 
 export default () => (
     <div className={styles.header} style={{ color: `teal` }}>
-      console.log(logo) 
-      function Header() {
-     // Import result is the URL of your image
-     return <img src={check-list.svg alt="Logo" />
-   }
+      <div className={logo}></div>
       <Link to="/">Accueil</Link>
       <Link to="/gestionnaire/">gestionnaire</Link>
       <Link to="/presentation/">Présentation</Link>
