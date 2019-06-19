@@ -1,13 +1,12 @@
 import React from "react"
-import { Link } from "gatsby"
 import Header from "../components/header"
 import Container from "../components/container"
+import Formulaire from "../components/formulaire"
 export default () => (
   <div style={{ color: `teal` }}>
     <Header />
     <Container>
-
-    <p>Send us a message!</p>
+  <Formulaire />
     </Container>
   </div>
 )

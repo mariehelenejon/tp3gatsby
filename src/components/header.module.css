@@ -4,9 +4,18 @@
     font-family: 'Roboto', sans-serif;
 }
 .header{
-    display:block;
-    float:right;
+    display:flex;
+    justify-content: space-between;
+    padding-bottom:5%;
 }
 .logo {
-    background-image: url(img/check-list.svg);
+    width:100px; 
+    height:100px;
+  }
+  .logotitle{
+     display:flex;
+     flex-wrap:wrap; 
+  }
+  .maintitle{
+    font-family: 'Righteous', cursive!important;
   }
