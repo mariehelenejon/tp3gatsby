@@ -1,3 +1,12 @@
-.accueil{
-    background-image: url("../img/task.jpeg");
+
+
+.card{
+    background-color:grey;
+    padding:15px;
+    margin-top:10px;
+    border:2px solid white;
+
+}
+h2{
+    font-family: "Righteous", cursive;
 }

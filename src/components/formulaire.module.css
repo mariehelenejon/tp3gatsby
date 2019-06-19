@@ -1,0 +1,7 @@
+.sectionForm{
+    font-size:30px;
+    display:flex;
+    flex-direction:column;
+    margin-top:20px;
+    color:white;
+}
