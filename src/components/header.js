@@ -1,13 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
 import styles from "./header.module.css"
-/* import logo from './check-list.svg' */
+import logo from '../images/check-list.svg'
 
 
 export default () => (
     <div className={styles.header} style={{ color: `teal` }}>
       <div className={styles.logoTitle}>
-     <img src={'check-list.svg'} alt="Logo" className={styles.logo}/> 
+     <img src={logo} alt="Logo" className={styles.logo}/> 
      <h1 className={styles.maintitle}>Drello</h1>
      </div>
      <div>

@@ -6,6 +6,25 @@ export default class Tasks extends Component {
     tasks: [],
   };
 
+    createTable = () => {
+      let tasks = this.state.tasks, final =[];
+
+
+        // Outer loop to create parent
+        for (let task of tasks) {
+          let children = []
+          //Inner loop to create children
+            children.push(<label htmlFor="name">Titre</label>)
+            children.push(<input type="text" name="name" key={task.ID} defaultValue={task.post_title} onChange={this.handleChangeTitle} />)
+            children.push(<label htmlFor="descript">Description</label>)
+            children.push(<input type="text" name="descript" defaultValue={task.post_content} onChange={this.handleChangeDescript} />)
+            children.push(<input type="submit" key={task.ID} value="Modifier" />)
+          //Create the parent and add the children
+          final.push(<ul>{children}</ul>)
+        }
+        return final
+    }
+
   componentDidMount() {
     this.fetchTasks();
   }
@@ -17,20 +36,13 @@ export default class Tasks extends Component {
   }
   
   render() {
-    var divStyle = {
-      color: 'black',
-      width: '100%',
-    };
+
     return(
       <ul>
       <form> 
-          <li>
-          <label htmlFor="text">Titre</label>
-            <input style={divStyle} type="text" name="name" defaultValue={ this.state.tasks.map(task => <text>{task}</text>)} />
-            <label htmlFor="descript">Description</label>
-            <input style={divStyle} type="text" name="descript" defaultValue={this.state.tasks.map(task => <text>{task.post_content}</text>)} />
-            <input type="submit" value="Modifier" />
-          </li>
+          
+          {this.createTable()}
+            
       </form>
       </ul>
     )
