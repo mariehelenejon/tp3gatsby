@@ -15,10 +15,23 @@ export default class Tasks extends Component {
       this.setState({ tasks: result.data });
     })
   }
+  
   render() {
+    var divStyle = {
+      color: 'black',
+      width: '100%',
+    };
     return(
       <ul>
-        {this.state.tasks.map(task => <li>{task.post_title}{task.post_content}{task.post_modified}</li>)}
+      <form> 
+          <li>
+          <label htmlFor="text">Titre</label>
+            <input style={divStyle} type="text" name="name" defaultValue={ this.state.tasks.map(task => <text>{task}</text>)} />
+            <label htmlFor="descript">Description</label>
+            <input style={divStyle} type="text" name="descript" defaultValue={this.state.tasks.map(task => <text>{task.post_content}</text>)} />
+            <input type="submit" value="Modifier" />
+          </li>
+      </form>
       </ul>
     )
   }
