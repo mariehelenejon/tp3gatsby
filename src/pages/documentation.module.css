@@ -1,0 +1,26 @@
+.documentation {
+    display: flex;
+    background-color: #3772FF;
+    padding: 40px;
+    margin: 60px;
+    border: solid 4px #f1543f;
+    border-radius: 5px;
+}
+
+
+.documentation p {
+    color: #080708;
+    font-size: 17px;
+}
+
+.documentationText {
+    margin: 15px;
+}
+
+.documentationText h3 {
+    margin: 0px;
+    font-size: 30px;
+    text-align: center;
+
+
+}

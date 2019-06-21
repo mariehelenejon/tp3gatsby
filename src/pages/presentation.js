@@ -33,7 +33,10 @@ export default () => (
     <h2>Qui sommes-nous?</h2>
 
     <div className={styles.equipe} >
+    <div className={styles.widthImg}>
       <img src={imgVincent} alt="Photo de Vincent Desrosiers" className={styles.photo}/> 
+    </div>
+      
         <div className= {styles.equipeInfo}>
         <h3>Vincent Desrosiers</h3>
         <p> Je suis quelqu’ un qui est passionné pas les nouvelles technologies web. Je 
@@ -43,7 +46,9 @@ export default () => (
     </div>
 
     <div className={styles.equipe} >
+    <div className={styles.widthImg}>
       <img src={imgMaude} alt="Photo de Maude Laroche" className={styles.photo}/> 
+      </div>
         <div className= {styles.equipeInfo}>
         <h3>Maude Laroche</h3>
         < p > J’ aime relever les défis et être à l 'affût des meilleures technologies et frameworks web afin de mettre sur pied le meilleur des sites web. Je maitrise différents langages informatiques (HTML, CSS, SASS, PHP, JAVASCRIPT, JQUERY, etc.)</p>
@@ -51,7 +56,9 @@ export default () => (
     </div>
 
     <div className={styles.equipe} >
+    <div className={styles.widthImg}>
       <img src={imgMarie} alt="Photo de Marie-Hélène Joncas" className={styles.photo}/> 
+    </div>
         <div className= {styles.equipeInfo}>
         <h3>Marie-Hélène Joncas</h3>
         <p> Je suis une développeuse front end qui adore le design graphique!Je maîtrise de nombreux langages et frameworks qui me permettent aujourd’ hui de réaliser tous les projets possibles. </p>

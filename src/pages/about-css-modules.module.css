@@ -26,7 +26,7 @@
 
 /* SECTION NOTRE ÉQUIPE_____________________________________________________ */
 .photo{
-    width: 25%;
+    width: 300px;
 }
 
 .equipe{
@@ -47,9 +47,13 @@
  h2 {
     color: #080708;
     text-decoration: underline;
+    font-size: 30px;
 }
 
 .equipeInfo p {
     color: #080708;
     font-size: 20px;
+}
+.widthImg{
+    width: 100%;
 }
