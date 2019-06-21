@@ -1,13 +1,14 @@
 html {
-    background-color:#4f3b56;
+    background-color:#FDCA40;
     color:white;
 }
-h1, h2, h3, h4, h5, h6{
+ h3, h4, h5, h6{
+    color:#080708;
+}
+p, ul{
     color:white;
 }
-p, a, ul{
-    color:white;
-}
-h2{
-    text-decoration:underline;
+h1, a{
+    color:#080708;
+    text-transform: uppercase;
 }

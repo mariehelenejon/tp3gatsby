@@ -10,7 +10,7 @@ export default () => (
      <img src={logo} alt="Logo" className={styles.logo}/> 
      <h1 className={styles.maintitle}>Drello</h1>
      </div>
-     <div>
+     <div className={styles.links}>
       <Link to="/">Accueil</Link>
       <Link to="/gestionnaire/">Gestionnaire</Link>
       <Link to="/presentation/">Présentation</Link>

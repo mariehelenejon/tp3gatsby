@@ -1,31 +1,55 @@
-.user {
+/* SECTION PRÉSENTATION DU PRODUIT____________________________________________+ */
+.descriptionProduit{
     display: flex;
-    align-items: center;
-    margin: 0 auto 12px auto;
+    background-color: #3772FF;
+    padding: 40px;
+    margin: 60px;
+}
+.descriptionProduit img{
+    width: 50%;
+}
+.descriptionProduit p {
+    color: #080708;
+    font-size: 17px;
+}
+.produitText{
+    margin: 15px;
+}
+.produitText h3 {
+    margin: 0px;
+    font-size: 30px;
+
 }
 
-.user:last-child {
-    margin-bottom: 0;
+
+
+
+/* SECTION NOTRE ÉQUIPE_____________________________________________________ */
+.photo{
+    width: 25%;
 }
 
-.avatar {
-    flex: 0 0 96px;
-    width: 96px;
-    height: 96px;
-    margin: 0;
+.equipe{
+    display: flex;
+    margin-top: 15px;
+}
+.equipeInfo{
+    display: flex;
+    flex-direction:column;
+    margin: 0px 15px;
 }
 
-.description {
-    flex: 1;
-    margin-left: 18px;
-    padding: 12px;
+.equipeInfo h3{
+    margin:0px;
+    font-size: 30px;
 }
 
-.username {
-    margin: 0 0 12px 0;
-    padding: 0;
+ h2 {
+    color: #080708;
+    text-decoration: underline;
 }
 
-.excerpt {
-    margin: 0;
+.equipeInfo p {
+    color: #080708;
+    font-size: 20px;
 }

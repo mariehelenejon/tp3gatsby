@@ -1,21 +1,43 @@
 .header a{
     text-decoration:none;
-    padding:20px;
-    font-family: 'Roboto', sans-serif;
+    padding:10px;
+      font-family: 'Righteous', cursive;
 }
 .header{
     display:flex;
     justify-content: space-between;
-    padding-bottom:5%;
+  
 }
 .logo {
     width:100px; 
     height:100px;
   }
-  .logotitle{
+  .logoTitle{
      display:flex;
      flex-wrap:wrap; 
   }
   .maintitle{
     font-family: 'Righteous', cursive!important;
   }
+
+  .links{
+    padding-top:10px;
+  }
+
+  .links a {
+
+    margin: 2px;
+    background-color: #f1543f;
+    border-radius: 5px;
+    border:2px solid #3772FF;
+
+  }
+
+  .links a:hover {
+    background-color: #3772FF;
+    color: white;
+  }
+
+
+
+  /* f1543f */
