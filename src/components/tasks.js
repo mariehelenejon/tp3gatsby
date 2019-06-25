@@ -17,7 +17,7 @@ export default class Tasks extends Component {
             children.push(<input type="text" name="descript" defaultValue={task.post_content} />)
             children.push(<input type="button" id={task.ID} key={task.ID} onClick={this.handleChange.bind(this)} value="Modifier" />)
           //Create the parent and add the children
-          final.push(<li ><form >{children}</form></li>)
+          final.push(<li><form >{children}</form></li>)
         }
         return final
     }
@@ -46,9 +46,7 @@ export default class Tasks extends Component {
 
     return(
       <ul>
-      
           {this.createTable()}
-      
       </ul>
     )
   }
